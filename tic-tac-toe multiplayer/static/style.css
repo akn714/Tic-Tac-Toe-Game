@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+    font-family: cursive;
+    color: #02c4ff;
+}
+.game{
+    background: red;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows:  100px 100px 100px;
+}
+.btn{
+    font-size: 80px;
+    background: #101010;
+    color: #02c4ff;
+    border: none;
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reset{
+    height: 50px;
+    width: 100%;
+    margin-top: 37px;
+    font-size: 30px;
+    font-family: cursive;
+    background: #02c4ff;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.gameOver{
+    height: 100%;
+    width: 100%;
+    background-color: #000000e3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.restart{
+    height: 40px;
+    width: 100px;
+    border: 1px solid gray;
+    font-size: 20px;
+    border-radius: 4px;
+}
