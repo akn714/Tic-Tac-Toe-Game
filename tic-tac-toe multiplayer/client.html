@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>TIC - TAC - TOE</h2>
+        <div class="game">
+            <button id='11' class='btn'></button>
+            <button id='12' class='btn'></button>
+            <button id='13' class='btn'></button>
+            <button id='21' class='btn'></button>
+            <button id='22' class='btn'></button>
+            <button id='23' class='btn'></button>
+            <button id='31' class='btn'></button>
+            <button id='32' class='btn'></button>
+            <button id='33' class='btn'></button>
+        </div>
+        <button class="reset" onclick='restart()'>Reset</button>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/static/script1.js"></script>
+    <script src="/static/script2.js"></script>
+    <script src="/static/script3.js"></script>
+</body>
+</html>
